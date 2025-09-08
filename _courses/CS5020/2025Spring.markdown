@@ -1,0 +1,104 @@
+---
+layout: page
+title: CS5020 Advanced Distributed Systems
+description: "2025 Fall Syllabus"
+---
+
+
+##### **Instructors**
+
+[Zhuozhao Li](https://zhuozhaoli.github.io/), 李卓钊
+- Office: RM 516, South Tower, CoE Building (工学院南楼516)
+- Office hour: Friday 16:00-18:00, or email to schedule an appointment.
+
+
+##### **Course Descriptions**
+
+This course covers the design and implementation of distributed systems. Students will gain an understanding of the principles and techniques behind the design of modern, reliable, and high-performance distributed systems. Topics include server design, network programming, naming, concurrency and locking, consistency models and techniques, security, and fault tolerance. Modern techniques and systems employed at some of the largest Internet sites (e.g., Google, Facebook, Amazon) will also be covered. Through programming assignments, students will gain practical experience designing, implementing, and debugging real distributed systems.
+
+**Prerequisites**: Computer Networks, Operating Systems, and/or programming maturity recommended.
+
+##### **Course Materials**
+
+There are no textbooks for this class. All materials will be covered in lecture, which students are strongly recommended to attend. There are several books that might be useful:
+
+- *The Go Programming Language*. Alan A. A. Donovan and Brian W. Kernighan. [Web page](http://www.gopl.io/)
+- *Distributed Systems: Principles and Paradigms*. Andrew S. Tanenbaum and Maaten Van Steen.
+- *Guide to Reliable Distributed Systems*. Kenneth P. Birman.
+
+Note: Lectures and related materials are licensed for use under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/), attributed to Michael Freedman, Kyle Jamieson, and Wyatt Lloyd, Princeton University.
+
+
+##### **Course Workloads**
+
+There will be 4-5 programming assignments and one final examination. 
+
+##### **Grading Policy** (Tentative)
+
+<!--- The grading policy may subject to minor changes depending on the overall performance.-->
+
+- Programming assignments, 50%
+
+- Attendance and lab practice, 10%
+
+- Final exam, 40%
+
+##### **Academic Integrity/Academic Dishonesty**
+
+I expect students to be honest and not cheat on their assignments, project, or exams. 
+Please refer to the [plagiarism policy](/assets/Plagiarism_Policy_2023.pdf) (**IMPORTANT!!! Please READ carefully!!!**) of CSE department for more details.
+
+Don't put your assignments or projects on any open-source website (e.g., Github). Otherwise, you have the same responsibility in case of plagiarism.
+
+
+##### **Course Policies**
+
+- No late assignment will be accepted.
+- Unless some special situations (e.g., medical leave) which will be reviewed by all the instructors.
+- The following excuses will NOT be approved for late submissions: computer crashes, disk crashes, accidental file deletions, lab computer unavailability, and the like. There will be no reply for this sort of late assignment submission requests.
+
+##### **[Schedule](#schedule) (Tentative)** {#schedule}
+
+<style>
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 5pt;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a6a6a6;
+  color: white;
+}
+</style>
+
+Please refer to Blackboard for the lecture and lab materials.
+
+Acronyms: PA = Programming Assignment, PROJ = Project
+
+
+
+| **Week** |           **Date**       | **Contents**                                                                                                                                                                                  |      **Events**     |
+|:--------:|:------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------:|
+| 1        | 2025.09.10               | [Lecture] Course overview  <br>[Lab] Introduction to Go monitoring                                                                                                                            |                     |
+| 2        | 2025.09.17               | [Lecture] Network communication and Remote Procedure Calls  <br>[Lab] Concurrency in Go, MapReduce                                                                                            |                     |
+| 3        | 2025.09.24               | [Lecture] Time and Logical Clocks  <br>[Lab] RPCs in Go                                                                                                                                       | PA1 out             |
+| 4        | 2025.10.11               | [Lecture] Distributed Snapshots <br>[Lab]  Distributed Snapshots                                                                                                                              |                     |
+| 5        | 2025.10.15               | [Lecture] Eventual consistency, Bayou <br>[Lab]  Bayou and Chord                                                                                                                              | PA1 due<br>PA2 out  |
+| 6        | 2025.10.22               | [Lecture] Peer-to-Peer Systems and Distributed Hash Tables <br>[Lab]   TBD                                                                                                                    |                     |
+| 8        | 2025.10.29               | [Lecture] Replicated State Machines via Primary Backup <br>[Lab]  TBD                                                                                                                         | PA2 due<br>PA3 out  |
+| 9        | 2025.11.05               | [Lecture] View Changes and Consensus <br>[Lab]  TBD                                                                                                                                           |                     |
+| 10       | 2025.11.12               | [Lecture] Consensus <br>[Lab] TBD                                                                                                                                                             |                     |
+| 11       | 2025.11.19               | [Lecture] Consistency Models <br>[Lab] TBD                                                                                                                                                    | PA3 due<br>PA4 out  |
+| 12       | 2025.11.26               | [Lecture] Scalable Causal Consistency <br>[Lab] TBD                                                                                                                                           |                     |
+| 13       | 2025.12.03               | [Lecture] Atomic Commit and Concurrency Control <br>[Lab] TBD                                                                                                                                 | PA4 due<br>PA5 out  |
+| 14       | 2025.12.10               | [Lecture] Distributed transactions  <br>[Lab] TBD                                                                                                                                             |                     |
+| 15       | 2025.12.17               | [Lecture] Reasoning about System Performance <br>[Lab] TBD                                                                                                                                    |                     |
+| 16       | 2025.12.24               | [Lecture] Blockchains <br>[Lab] TBD                                                                                                                                                           | PA5 DUE             |

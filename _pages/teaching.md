@@ -16,3 +16,6 @@ Courses at SUSTech
 
 - CS305A Computer Networks
 	- [2022 Spring](/courses/CS305A/2022Spring), [2023 Spring](/courses/CS305A/2023Spring), [2024 Spring](/courses/CS305A/2024Spring), [2025 Spring](/courses/CS305A/2025Spring)
+
+- CS5020 Advanced Distributed Systems
+	- [2025 Fall](/courses/CS5020/2025Fall)
