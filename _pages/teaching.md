@@ -18,4 +18,4 @@ Courses at SUSTech
 	- [2022 Spring](/courses/CS305A/2022Spring), [2023 Spring](/courses/CS305A/2023Spring), [2024 Spring](/courses/CS305A/2024Spring), [2025 Spring](/courses/CS305A/2025Spring), [2026 Spring](/courses/CS305A/2026Spring)
 
 - CS5020 Advanced Distributed Systems
-	- [2025 Fall](/courses/CS5020/2025Fall)
+	- [2025 Fall](/courses/CS5020/2025Fall), [2026 Fall](/courses/CS5020/2026Fall)
